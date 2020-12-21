@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: natiks
+Build-Jdk: 12
+Implementation-Title: java8practice
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.srinivas.java
+Implementation-URL: https://spring.io/projects/spring-boot/java8practice
+Created-By: Maven Integration for Eclipse
+
