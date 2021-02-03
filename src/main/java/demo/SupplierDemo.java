@@ -9,7 +9,7 @@ public class SupplierDemo {
 	public static void main(String[] args) {
 
 
-		List<String> list1 = Arrays.asList();
+		List<String> list1 = Arrays.asList("hi");
 
 		System.out.println(list1.stream().findAny().orElseGet(() -> "Hi viewers"));
 	}

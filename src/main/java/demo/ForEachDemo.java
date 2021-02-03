@@ -34,10 +34,10 @@ public class ForEachDemo {
 		map.put(4, "d");
 
 		/*
-		 * map.forEach((key,value)->System.out.println(key+": "+value));*/
-		
-		  map.entrySet().stream().filter(k->k.getKey()%2==0).forEach(obj->System.out.println(obj));
-		 
+		 * map.forEach((key,value)->System.out.println(key+": "+value));
+		 */
+
+		map.entrySet().stream().filter(k -> k.getKey() % 2 == 0).forEach(obj -> System.out.println(obj));
 
 		/*
 		 * Consumer<String> consumer=(t)->System.out.println(t); for(String s1:list) {

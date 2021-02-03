@@ -10,6 +10,23 @@ import example.Employee;
 
 
 public class SortListDemo {
+	
+	int a=10;
+	static String s="hi";
+	
+	SortListDemo(String s,int i){
+		this();
+		System.out.println("this is to invoke ");
+	}
+	public SortListDemo(String s) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public SortListDemo() {
+		this("hello");
+		// TODO Auto-generated constructor stub
+	}
+
 
 	public static void main(String[] args) {
 
@@ -18,6 +35,8 @@ public class SortListDemo {
 		list.add(3);
 		list.add(12);
 		list.add(4);
+		
+		
 
 		List<Employee> employees = DataBase.getEmployees();
 
@@ -48,6 +67,15 @@ public class SortListDemo {
 		 * list.stream().sorted(Comparator.reverseOrder()).forEach(s->System.out.println
 		 * (s));//descending
 		 */
+		new SortListDemo().show();
 
 	}
+	
+	public void show() {
+		a=20;
+		System.out.println(a);
+		
+	}
+	
+	
 }
