@@ -1,6 +1,7 @@
 package com.srinivas.java;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public class listSumGT10 {
@@ -18,5 +19,5 @@ public class listSumGT10 {
 	private static int sumStream(List<Integer> list) {
 		return list.stream().filter(i -> i > 10).mapToInt(i -> i).sum();
 	}
-
+	
 }
