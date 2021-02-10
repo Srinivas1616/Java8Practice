@@ -33,6 +33,8 @@ public class LinkedListEx {
 		int j =ll.removeLast();
 		System.out.println("removed first element: "+ i +", & last elemenet: "+j);
 		
+		//Many other methods like T remove(index), boolean contains(element), etc....
+		
 	}
 
 }
